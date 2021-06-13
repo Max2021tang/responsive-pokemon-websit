@@ -1,0 +1,65 @@
+body{
+	background-color: rgba(3, 59, 255, 0.34);
+}
+
+h5{
+	font-size: 2vw;
+}
+
+
+.pokedesing {
+	font-family: cursive;
+    font-size: 10vw;
+ 	line-height: 74px;
+	text-align: center;
+}	
+
+.row {
+	display: flex;
+}
+.colunm {
+	flex: 33.33%;
+	padding: 5px;
+
+ }
+
+.mainpic{
+	height: 20%;
+	width: 50%;
+}
+.picstting{
+	display: flex;
+ 	justify-content: center;
+}
+
+p{
+	font-size: 4vw;
+	font-family:cursive;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+.backbutton{
+	height: 70%;
+	width: 102px;
+}
+
+.backstting{
+	display: flex;
+ 	justify-content: flex-end;
+
+}
+
+
+@media (max-width: 600px){
+	.row{display: block;}
+	.backbutton{
+	height: 70%;
+	width: 10%;
+}
+
+
+
+
+
+}
